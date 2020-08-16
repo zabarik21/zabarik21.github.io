@@ -40,7 +40,7 @@ h1 {
  * 2. Show the overflow in Edge and IE. */
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -75,20 +75,23 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari. */
-b, strong {
+b,
+strong {
   font-weight: bolder;
 }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers. */
-code, kbd, samp {
+code,
+kbd,
+samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
@@ -104,7 +107,8 @@ small {
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers. */
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -132,7 +136,11 @@ img {
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari. */
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -146,7 +154,8 @@ button, input, optgroup, select, textarea {
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge. */
-button, input {
+button,
+input {
   /* 1 */
   overflow: visible;
 }
@@ -154,27 +163,37 @@ button, input {
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox. */
-button, select {
+button,
+select {
   /* 1 */
   text-transform: none;
 }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari. */
-button, [type="button"], [type="reset"], [type="submit"] {
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox. */
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 /**
  * Restore the focus styles unset by the previous rule. */
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -191,7 +210,7 @@ fieldset {
  *    `fieldset` elements in all browsers. */
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -220,9 +239,10 @@ textarea {
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10. */
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -230,7 +250,8 @@ textarea {
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome. */
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -278,7 +299,8 @@ summary {
  * ========================================================================== */
 /**
  * Add the correct display in IE 10+. */
-template, [hidden] {
+template,
+[hidden] {
   display: none;
 }
 
@@ -297,6 +319,7 @@ body {
 
 .page-header {
   height: 550px;
+  width: auto;
   background-color: #000000;
   margin: 0 auto;
   background-image: url(../img/wheat-back.jpg.png);
@@ -331,8 +354,8 @@ body {
   display: flex;
   list-style: none;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .page-header li {
@@ -370,8 +393,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 90px;
 }
 
@@ -388,7 +411,7 @@ body {
   margin-top: 90px;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .content-4 .item h3 {
@@ -463,8 +486,8 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .features .content-2 ul {
@@ -473,14 +496,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   margin-top: 75px;
 }
 
 .features .content-2 .feature-item {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 310px;
   height: 250px;
   display: -webkit-box;
@@ -488,11 +511,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   margin: auto 0;
 }
 
@@ -552,8 +575,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .history .content-3 .items .item {
@@ -562,11 +585,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .history .content-3 .items .item-2 {
@@ -589,7 +612,7 @@ body {
 
 .forms {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 1190px;
   background-color: #ffcb78;
 }
@@ -627,11 +650,11 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 90px 90px 90px 90px 165px 150px 60px;
-      grid-template-rows: 90px 90px 90px 90px 165px 150px 60px;
-  grid-template-colimns: 327.5px 327.5px;
+  grid-template-rows: 90px 90px 90px 90px 165px 150px 60px;
+  grid-template-columns: 327.5px 327.5px;
   gap: 50px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .form-content .form input {
@@ -705,4 +728,5 @@ body {
   background-color: #e5b66c;
   border: none;
 }
+
 /*# sourceMappingURL=style.css.map */
