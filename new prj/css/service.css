@@ -1,0 +1,30 @@
+.services {
+  position: relative;
+}
+
+.service-wrap {
+  width: 1120px;
+  height: 1131px;
+  position: absolute;
+  right: 104px;
+}
+
+.services__text {
+  width: 952px;
+  height: 177px;
+}
+
+.services__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.services__subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 61px;
+}
